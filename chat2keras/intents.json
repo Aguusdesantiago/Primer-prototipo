@@ -1,0 +1,22 @@
+{
+    "intents": [
+        {
+            "tag":"saludo",
+            "patterns": ["Hola", "Hay alguien ahi?", "Que tal?"],
+            "responses": ["Hola, en que te puedo ayudar?"],
+            "context": [""]
+        },
+        {
+            "tag":"adios",
+            "patterns": ["Gracias", "Genial, gracias", "Muchas gracias"],
+            "responses": ["de nada!", "fue un gusto!"],
+            "context": [""]
+        },
+        {
+            "tag":"sinrespuesta",
+            "patterns": [""],
+            "responses": ["Disculpa, no he entendido tu consulta."],
+            "context": [""]
+        }
+    ]
+}
